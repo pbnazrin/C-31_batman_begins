@@ -29,10 +29,7 @@ function draw(){
  
     background("black");
     
-    for(var i=0; i<maxDrops;i++){
-        drops.push(new Drops(random(0,400),random(0,400),5))
-        
-    }
+
     
     //displaying rain drops
     for(var i = 0; i<maxDrops; i++){
